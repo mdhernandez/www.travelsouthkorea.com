@@ -1,0 +1,155 @@
+/*
+	Author: Michael Hernandez
+	BCS 130 Capstone Project
+	November 11th, 2015
+*/
+
+body{
+	background-color: tomato;
+	color: white;
+	margin-left: 1em;
+}
+
+#main{
+	width: 95%;
+	margin-left: 2em;
+}
+
+#main h1{
+	font-size: 1.9em;
+}
+
+p {
+	font-size: 1.4em;
+	line-height: 1.5em;	
+}
+
+dl{
+	line-height: 2em;
+}
+
+dd{
+	font-size: 1.5em;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	text-decoration: underline;
+}
+
+.alignment{
+	text-align: center;
+}
+
+.shift{
+	text-align: center;
+	margin-right: 200px;
+}
+
+header{
+	background-color: red;
+	background-image: url(images/redLeaves.jpg);
+	height: 340px;
+	margin-bottom: 1%;
+}
+
+aside{
+	float: right;
+	width: 12.5em;
+	margin: 0 0.625em 0.625em 0;
+	padding: 0.625em 0.625em 0.625em 3.125em;
+	background-color: orange;
+	height: 25em;
+}
+
+
+dt{
+	font-weight: bold;
+	font-size: 1.3em;
+	font-family: Helvetica, sans-serif;
+	text-decoration: underline;
+	color: white;
+}
+
+a{
+	font-size: 1.3em;
+	font-family: Helvetica, sans-serif;
+	text-decoration: underline;
+	color: white;
+}
+
+a:hover{
+	color: gold;
+}
+
+.right{
+	float: right;
+	margin-left: 10px;
+}
+
+.left{
+	float: left;
+	margin-right: 10px;
+}
+
+.cleft{
+	clear: left;
+}
+
+img{
+	margin-bottom: 1em;
+	}
+
+footer{
+	text-align: center;
+	border: dashed black;
+	background-color: burlywood;
+	color: black;
+	margin-bottom: 0;
+	clear: both;
+}
+
+footer a{
+	font-size: 1em;
+	color: black;
+}
+
+footer p{
+	margin: 1em 1.2em;
+}
+
+ul li{
+	list-style: none;
+	line-height: 1.2em;
+	font-size: 1.4em;
+}
+
+table{
+	border: solid 3px black;
+	border-collapse: collapse;
+	background-color: orange;
+	float: right;
+	width: 12.5em;
+	clear: right;
+	margin: 0 10px 10px 0;
+	padding: 10px 10px 10px 50px;
+	height: 1.2em;
+}
+
+td, th{
+	border: solid 2px black;
+	color: black;
+	text-align: center;
+}
+
+caption{
+	font-weight: bold;
+	background-color: darkorange;
+}
+
+select{
+	display: block;
+}

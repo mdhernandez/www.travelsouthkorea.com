@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<!-- 
+		Author: Michael Hernandez
+		BCS 130 Capstone Project
+		November 10th, 2015
+	-->
+	<title>Contact Us</title>
+	
+	<link href = "korea_layout.css" rel = "stylesheet" type = "text/css" />
+	
+	<style type = "text/css">
+	
+	h2{
+		text-decoration: none;
+	}
+	
+	fieldset{
+		margin: 1em;
+	}
+
+	input{
+		display: block;
+		margin-bottom: 1em;
+	}
+
+	input.shift{
+		margin-left: 1em;
+	}
+
+	legend{
+		font-weight: bold;
+		font-family: Arial, sans-serif;
+	}
+
+	label{
+		font-family: Arial, sans-serif;
+	}
+
+	textarea{
+		display: block;
+	}
+	
+	#formcontainer{
+		width: 30%;
+		padding-left: 30%
+	}
+	
+	</style>
+	</head>
+	
+	<body>
+	<section id = top>
+	<header>
+			<a href = "index.htm">
+			<img src = "images/seoulbanner.png" alt = "Korea Banner"/>
+			</a>
+			
+		</header>
+	</section>
+	
+		<aside>
+			<nav>
+			<p><a href = "index.htm">Home</a></p>
+			<p><a href = "SeoulHome.htm">Seoul</a></p>
+			<p><a href = "BusanHome.htm">Busan</a></p>
+			</nav>
+		</aside>
+		
+		<h1 class = "alignment">Contact Us</h1>
+		
+		<section id = "staff" class = "alignment">
+		
+		<h2>Visit Korea!&trade; Staff</h2>
+		
+		<ul>
+			<li>Kristie Kim - CEO</li>
+			<li>Hyun-Woo Sohn - Korean Consultant</li>
+			<li>Jennifer Khan - Travel Agent</li>
+			<li>Michael Hernandez - Website Design and Maintenence</li>
+		</ul>
+		</section>
+		
+	<form>
+	<div id = "formcontainer">
+	<fieldset><legend>Contact Information</legend>
+		<label for = "firstname">First Name</label>
+		<input type = "text" name = "firstname" id = "firstname" />
+		
+		<label for = "lastname">Last Name</label>
+		<input type = "text" name = "lastname" id = "lastname" />
+		
+		<label for = "phonenumber">Phone Number</label>
+		<input type = "text" name = "phonenumber" id = "phonenumber" 
+		placeholder = "000-000-0000" maxlength = "20"/>
+		
+		<label for = "emailaddress">Email Address</label>
+		<input type = "email" name = "emailaddress" id = "emailaddress" 
+		size = "40" class = "text" placeholder = "email@address.com" />
+		
+	</fieldset>
+		<fieldset><legend>Send us a message</legend>
+		<label for = "subject">Subject</label>
+		
+	<select name = "subject" id = "subject">
+		<option value = "question">Specific Question about Korea</option>
+		<option value = "trip">Planning a trip</option>
+		<option value = "ancestry">Making a suggestion</option>
+		<option value = "other">Other</option>
+	</select>
+	
+			<label for "message">Message</label>
+			<textarea name = "message" id = "message" rows = "10" cols = "45"></textarea>
+		</fieldset>
+		
+		<input type="submit" value="Submit" class="shift" />
+	</form>
+	
+	</div>
+	
+	<footer>
+	<nav>
+	<p> <a href = "#top">Back to Top</a> &ast; &nbsp; <a href = "history.htm">About Korea</a> &ast; &nbsp; <a href = "about.htm">About Us</a> &ast; &nbsp; <a href = "contact.htm">Contact Us</a> &ast; &nbsp; Visit South Korea!&trade; &ast; &nbsp;</p>
+	</nav>
+	</footer>
+	</body>
+</html>
